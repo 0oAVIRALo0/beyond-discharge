@@ -6,7 +6,6 @@ This Android application predicts ICU readmissions using discharge summaries. Th
 
 The backend server processes discharge summaries and predicts ICU readmission probabilities using a pre-trained machine learning model.
 
----
 
 ## Features
 
@@ -30,7 +29,6 @@ The backend server processes discharge summaries and predicts ICU readmission pr
 - **Text Cleaning**:
   - Text is cleaned by removing punctuation, extra spaces, and normalizing case before prediction.
 
----
 
 ## Getting Started
 
@@ -41,5 +39,3 @@ The backend server processes discharge summaries and predicts ICU readmission pr
 - **Backend**:
   - Python 3.8+
   - Required Python libraries (`Flask`, `fhirpy`, `pickle`, `scikit-learn`, etc.).
-
----
